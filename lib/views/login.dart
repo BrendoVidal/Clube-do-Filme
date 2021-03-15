@@ -33,7 +33,9 @@ class Login extends StatelessWidget {
                               color: Colors.black,
                               fontSize: 50,
                               fontFamily: 'Tangerine')),
-                      onPressed: () {})),
+                      onPressed: () {
+                        Navigator.of(context).pushReplacementNamed('/home');
+                      })),
               Padding(padding: EdgeInsets.all(25.0)),
               SizedBox(
                   width: 250,
